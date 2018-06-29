@@ -33,7 +33,7 @@ $(document).ready(function() {
             singleItem: true
 
             // "singleItem:true" is a shortcut for:
-            // items : 1, 
+            // items : 1,
             // itemsDesktop : false,
             // itemsDesktopSmall : false,
             // itemsTablet: false,
@@ -53,6 +53,26 @@ $(document).ready(function() {
     );
     wow.init();
 
+    /*====================================
+      Portfolio Carousel
+      ======================================*/
+    	$(document).ready(function() {
+    	  var owl = $("#team");
+    	  owl.owlCarousel({
+
+    	      itemsCustom : [
+    	        [0, 1],
+    	        [450, 1],
+    	        [660, 2],
+    	        [700, 2],
+    	        [1200, 3],
+    	        [1600, 3]
+    	      ],
+    	      navigation : false,
+    	      pagination: true,
+    	  });
+
+    	});
     // Prettyphoto Installation
     $(document).ready(function(){
         $("a[class^='prettyPhoto']").prettyPhoto();
