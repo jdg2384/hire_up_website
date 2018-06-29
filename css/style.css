@@ -1,18 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 body,
 html {
-    -webkit-font-smoothing: antialiased !important;
+    /* -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
     overflow-y: auto;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #6f6f6f;
+    color: #6f6f6f; */
 }
 ::-webkit-scrollbar { width: 2px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
 ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.5); }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .container { width: 1100px }
 }
 h1 {
@@ -440,7 +440,7 @@ ul.social li a.fa:hover { background-color: #333333 }
     -ms-transform: translateX(0px) translateY(0%);
     -o-transform: translateX(0px) translateY(0%);
 }
-/*.count-box .hover-bg{ 
+/*.count-box .hover-bg{
   position: absolute;
   display: block;
   background-color: #FFCC32;
