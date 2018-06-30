@@ -5,7 +5,9 @@ Dark Gray: #727272;
 */
 /* GENERAL STYLES
 ================================================ */
-
+.navbar img {
+    width: 20% !important;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -79,7 +81,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(43, 191, 217, 0.90);
+    background: rgba(11, 161, 187, 0.7);
 }
 /* NAVIGATION
 ================================================ */
@@ -292,16 +294,34 @@ a:hover {
 ================================================ */
 
 #get-trial {
-    background: #34495E;
+    background: rgba(198, 233, 175, 1);
     padding: 120px 0;
 }
-#get-trial h4 {
-    display: inline-block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    margin: 20px;
+#get-trial img {
+    width: 60%;
+    border-radius: 50%;
 }
+#get-trial h4 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#get-trial h2 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#get-trial p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
 .get-trial {
     background: #24C0D9;
     border: none;
