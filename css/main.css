@@ -81,7 +81,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(11, 161, 187, 0.7);
+    background: rgba(193, 236, 238, 0.9);
 }
 /* NAVIGATION
 ================================================ */
@@ -294,9 +294,19 @@ a:hover {
 ================================================ */
 
 #get-trial {
-    background: rgba(198, 233, 175, 1);
+    background:linear-gradient(
+      rgba(193, 236, 238, .8), 
+      rgba(198, 236, 238, .8)
+    ), url(../img/background.png);
+    /* background: rgba(198, 233, 175, 1);
+    background: url(../img/background.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; */
     padding: 120px 0;
 }
+/* .overlay_trail{
+background: rgba(0, 0, 0, .2);  
+} */
 #get-trial img {
     width: 60%;
     border-radius: 50%;
@@ -306,18 +316,18 @@ a:hover {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 20px;
-    color: #fff;
+    color: #666666;
 }
 #get-trial h2 {
     font-size: 1.7em;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 20px;
-    color: #fff;
+    color: #666666;
 }
 #get-trial p {
     font-size: 15px;
-    color: #fff;
+    color: #666666;
     line-height: 1.5em;
     font-weight: 400;
 }
