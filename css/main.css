@@ -117,7 +117,7 @@ a:hover {
     padding-bottom: 65px;
 }
 .home-content {
-    color: #fff;
+    color: green;
     padding-top: 100px;
 }
 .home-content h1 {
@@ -127,7 +127,7 @@ a:hover {
 .home-content p {
     font-size: 20px;
     font-weight: 200;
-    color: #fff;
+    color: green;
     letter-spacing: .3px;
     line-height: 1.7em;
     margin: 30px 0;
@@ -295,7 +295,7 @@ a:hover {
 
 #get-trial {
     background:linear-gradient(
-      rgba(193, 236, 238, .8), 
+      rgba(193, 236, 238, .8),
       rgba(198, 236, 238, .8)
     ), url(../img/background.png);
     /* background: rgba(198, 233, 175, 1);
@@ -305,7 +305,7 @@ a:hover {
     padding: 120px 0;
 }
 /* .overlay_trail{
-background: rgba(0, 0, 0, .2);  
+background: rgba(0, 0, 0, .2);
 } */
 #get-trial img {
     width: 60%;
