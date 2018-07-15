@@ -6,7 +6,8 @@ Dark Gray: #727272;
 /* GENERAL STYLES
 ================================================ */
 .navbar img {
-    width: 20% !important;
+    width: 40% !important;
+    padding-bottom: 20px;
 }
 body {
     font-family: 'Open Sans', sans-serif;
