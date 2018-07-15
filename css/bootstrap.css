@@ -2525,7 +2525,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
+  color: green;
 }
 .form-control {
   display: block;
@@ -2534,7 +2534,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
+  color: green;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -3784,7 +3784,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555;
+  color: green;
   text-align: center;
   background-color: #eee;
   border: 1px solid #ccc;
@@ -3917,7 +3917,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
+  color: green;
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4404,7 +4404,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
+  color: green;
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -4430,7 +4430,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
+  color: green;
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
@@ -4445,7 +4445,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
+    color: green;
     background-color: #e7e7e7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -5138,14 +5138,14 @@ a.thumbnail.active {
   border-bottom-left-radius: 4px;
 }
 a.list-group-item {
-  color: #555;
+  color: green;
 }
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
-  color: #555;
+  color: green;
   text-decoration: none;
   background-color: #f5f5f5;
 }
