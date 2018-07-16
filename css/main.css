@@ -8,6 +8,7 @@ Dark Gray: #727272;
 .navbar img {
     width: 40% !important;
     padding-bottom: 20px;
+    float: left;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -407,12 +408,14 @@ footer {
 
 }
 .name{
-  text-align: center;
+
   color: 	#676765;
-  align-content: center;
   font-family: Lucida;
   font-size: 40px;
   font-weight: bold;
+
+  width: 50%;
+  display: inline-block;
 }
 #top{
   background-color: #FFFFFB;
