@@ -4,12 +4,20 @@
     .home-feature {
         margin-top: 40px;
     }
+    .logo {
+      max-width: 120px;
+      max-height: 120px;
+    }
 }
 /* Small devices (tablets, 767px and up) */
 
 @media (max-width: 767px) {
     .home-content {
         text-align: center;
+    }
+    .logo {
+      max-width: 90px;
+      max-height: 90px;
     }
     .service-content {
         margin-left: 0px;
@@ -40,6 +48,10 @@
 @media (max-width: 480px) {
     .home-content {
         padding-top: 0px;
+    }
+    .logo {
+      max-width: 70px;
+      max-height: 70px;
     }
     .single-portfolio {
         float: left;

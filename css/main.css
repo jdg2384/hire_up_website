@@ -10,6 +10,8 @@ Dark Gray: #727272;
     padding-bottom: 20px;
     float: left;
 }
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -21,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 4.5em;
+    padding: 2px;
     font-weight: 300;
 }
 h2 {
@@ -199,7 +202,8 @@ a:hover {
 .single-portfolio a:hover {
     background: #41C8DE;
 }
-/* NEWSLETTER SIGNUP
+
+/* MISSION/NEWSLETTER SIGNUP
  ================================================ */
 
 #newsletter {
@@ -240,6 +244,7 @@ a:hover {
     background: #454545;
     color: #fff;
 }
+
 /* TESTIMONIAL
 ================================================ */
 
