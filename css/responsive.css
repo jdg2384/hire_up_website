@@ -8,6 +8,12 @@
       max-width: 120px;
       max-height: 120px;
     }
+    .navbar img{
+      width: 15%;
+    }
+    .name {
+      font-size: 20px;
+    }
 }
 /* Small devices (tablets, 767px and up) */
 
@@ -42,7 +48,12 @@
     .footer-content {
         text-align: center;
     }
-}
+    .navbar img{
+      width: 10%;
+    }
+    .name {
+      font-size: 15px;
+    }
 /* Extra Small Devices (Phone, 480px and up) */
 
 @media (max-width: 480px) {
@@ -59,5 +70,8 @@
     }
     #newsletter input[type="email"] {
         font-size: 16px;
+    }
+    .navbar img{
+      width: 5%;
     }
 }
