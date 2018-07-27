@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
 
 <head>
 
@@ -24,7 +28,7 @@
   <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
- 
+    <!-- Place apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="./img/fav.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -43,12 +47,16 @@
 </head>
 
 <body id="top">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade ybrowser</a> to improve your experience.</p>
+    <![endif]-->
 
     <header>
-        
+        <!-- NAVIGATION -->
         <nav class="navbar navbar-default navbar-fixed-top" id= "home">
             <div class="container">
-                
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- <h2 class="name">HireUp Development</h2> -->
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -57,9 +65,9 @@
                         <span class="icon-bar"></span>
                     </button>
                     <ul class="list-inline">
-                        <li><img class="logo" src="img/fav.png" alt="HireUp Logo"></li></li>
-                        <li> <h4>HireUp Development</h4></li>
-                    </ul>
+                            <li><img class="logo" src="img/fav.png" alt="HireUp Logo"></li></li>
+                            <li> <h3>HireUp Development</h3></li>
+                          </ul>
                        
                        
                       
@@ -67,7 +75,7 @@
 
                 </div>
 
-               
+                <!-- TOGGLE NAV -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hidden">
@@ -79,7 +87,9 @@
                         </li>
                         <li><a class="page-scroll" href="#tf-team">Team</a>
                         </li>
-                        
+                        <!-- <li><a class="page-scroll" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li><a class="page-scroll" href="#testimonial">Testimonial</a> -->
                         </li>
                         <li><a class="page-scroll" href="#mission">Mission</a>
                         </li>
@@ -87,49 +97,53 @@
                         </li>
                     </ul>
                 </div>
-              
+                <!-- TOGGLE NAV -->
 
             </div>
-         
+            <!-- /.container -->
         </nav>
-  
+        <!-- END NAVIGATION -->
     </header>
 
-
+    <!-- HOME -->
     <div id="home-area">
- 
+      <!-- <br /><br /><br /><br /><br /><br /><br /><br /> -->
         <div class="overlay">
             <div class="container">
                 <div class="row">
 
-                  
+                    <!-- HOME CONTENT -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="home-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
                             <h1 class="maintext">We Build Visions</h1>
                             <p>We want to change <strong>your world</strong> through our creative designs and the message you want to share. </p>
-                            
+                          <!-- //  <a class="button home" href="#">Get Started</a> -->
                         </div>
                     </div>
-                   
+                    <!-- END HOME CONTENT -->
+
+                    <!-- HOME FEATURE IMAGE -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="home-feature pull-right center-block wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                             <img class="img-responsive" src="img/new5.svg" alt="">
                         </div>
                     </div>
-                 
+                    <!-- END HOME FEATURE IMAGE -->
 
                 </div>
             </div>
         </div>
     </div>
- 
+    <!-- END HOME -->
+
+    <!-- SERVICES -->
     <section id="services" class="section text-center">
-  
+      <!-- <br /><br /><br /><br /> -->
         <div class="container">
             <h2 class="section-title wow fadeIn">Services</h2>
             <div class="row">
 
-            
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="service-title">
@@ -140,11 +154,13 @@
 
                             <p>Why have a site that looks just like everyone else’s?  We can help with bringing your vision to life and help project it to the world.</p>
 
-                          
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-                
+                <!-- END SINGLE SERVICE -->
+
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                         <div class="service-title">
@@ -156,10 +172,13 @@
                             <p>Using native frameworks, we can create or maintain your applications in both Android and iOS.
                             </p>
 
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-              
+                <!-- END SINGLE SERVICE -->
+
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="service-title">
@@ -168,11 +187,13 @@
                         <div class="service-content">
                             <h3>Code</h3>
                             <p>Our code is built to be understood easily by software developers and self documented making it easily to navigate and maintain.</p>
-                             
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-              
+                <!-- END SINGLE SERVICE -->
+
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".9s">
                         <div class="service-title">
@@ -181,11 +202,13 @@
                         <div class="service-content">
                             <h3>Ecommerce</h3>
                             <p>Our marketplace solutions will provide peace of mind regarding financial transactions on your new customized site. </p>
-                           
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-             
+                <!-- END SINGLE SERVICE -->
+
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.2s">
                         <div class="service-title">
@@ -194,11 +217,13 @@
                         <div class="service-content">
                             <h3>Security</h3>
                             <p>Using the latest techniques of encryption and authorization, we can ensure your site is secure while on the World Wide Web.</p>
-                          
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-                
+                <!-- END SINGLE SERVICE -->
+
+                <!-- SINGLE SERVICE -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s">
                         <div class="service-title">
@@ -208,94 +233,174 @@
                             <h3>Web Application</h3>
                             <p>Stand out from the crowd!  Let us help you build a responsive website that attracts your audience using user-friendly engagement strategies and streamlined functionality!
                             </p>
-                        
+                            <!-- <a href="#">Learn More</a> -->
                         </div>
                     </div>
                 </div>
-                 
+                <!-- END SINGLE SERVICE -->
 
             </div>
-          
+            <!--.row-->
         </div>
-       
+        <!--/.container -->
     </section>
-    
+    <!-- END SERVICES -->
+
+    <!-- PORTFOLIO -->
+    <!-- <section id="portfolio" class="section text-center">
+        <div class="container">
+            <h2 class="section-title wow fadeIn">Portfolio</h2>
+            <div class="portfolio-filter text-center wow fadeInLeft" data-wow-duration="1s">
+                <a href="#">Mobile</a>
+                <a href="#">Web Design</a>
+                <a href="#">Branding</a>
+                <a href="#">Photography</a>
+            </div>
+            <div class="row">
+                <div class="portfolio-gallery wow pulse">
+
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/01.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/01.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/02.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/02.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/03.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/03.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+                    {/* <div class="single-portfolio">
+                        <a href="img/portfolio/04.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/04.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/05.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/05.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div> */}
+
+                    {/* <div class="single-portfolio">
+                        <a href="img/portfolio/06.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/06.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/07.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/07.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div>
+
+                    <div class="single-portfolio">
+                        <a href="img/portfolio/08.png" class="prettyPhoto" title="Single Portfolio">
+                            <img src="img/portfolio/08.png" alt="" class="img-responsive center-block">
+                        </a>
+                    </div> */}
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section> -->
+
+
+    <!-- Team Section
+        ================================================== -->
 
         <div id="tf-team">
         <br /><br />
-            <div class="container">
+            <div class="container"> <!-- container -->
                 <div class="section-header">
                     <h2>Awesome People Behind <span class="highlight"><strong>HireUp Development Inc.</strong></span></h2>
                     <h5><em>Changing the world by designing and building functional and beautiful websites</em></h5>
-                    <!-- <div class="fancy"><span><img src="img/fav.png" alt="..." style="width: 50px"></span></div> -->
+                    <div class="fancy"><span><img src="img/fav.png" alt="..." style="width: 50px"></span></div>
                 </div>
 
-                 <div id="team" class="owl-carousel owl-theme text-center"> 
-                        <div class="item">
-                            <div class="hover-bg"> 
-                                <div class="hover-text off"> 
-                                    <p>Army veteran with diverse experience in the tech industry who leverages former sales and demonstrated leadership ability to provide an enhanced client experience.</p>
-                                </div>
-                                <img id="teamimg" src="img/team/Tim.png" alt="..." class="img-responsive"> 
-                                <div class="team-detail text-center">
-                                    <h3>Timothy Jackson</h3>
-                                    <p class="text-uppercase">CEO</p>
-                                    <ul class="list-inline social">
-                                        <li><a href="https://www.linkedin.com/in/timjj/" class="fa fa-linkedin"></a></li> 
-                                        <li><a href="https://twitter.com/jockhanncock68" class="fa fa-twitter"></a></li> 
-                                        
-                                        <li><a href="tim@hireupdevelopment.com" class="fa fa-envelope-square"></a></li> 
-                                    </ul>
-                                </div>
+                 <div id="team" class="owl-carousel owl-theme text-center"> <!-- team carousel wrapper -->
+                    <div class="item"><!-- Team #1 -->
+                        <div class="hover-bg"> <!-- Team Wrapper -->
+                            <div class="hover-text off"> <!-- Hover Description -->
+                                <p>Army veteran with diverse experience in the tech industry who leverages former sales and demonstrated leadership ability to provide an enhanced client experience.</p>
+                            </div><!-- End Hover Description -->
+                            <img id="teamimg" src="img/team/Tim.png" alt="..." class="img-responsive"> <!-- Team Image -->
+                            <div class="team-detail text-center">
+                                <h3>Timothy Jackson</h3>
+                                <p class="text-uppercase">CEO</p>
+                                <ul class="list-inline social">
+                                    <li><a href="https://www.linkedin.com/in/timjj/" class="fa fa-linkedin"></a></li> <!-- facebook link here -->
+                                    <li><a href="https://twitter.com/jockhanncock68" class="fa fa-twitter"></a></li> <!-- twitter link here -->
+                                    <!-- <li><a href="#" class="fa fa-google-plus"></a></li> --> <!-- google plus link here -->
+                                     <li><a href="tim@hireupdevelopment.com" class="fa fa-envelope-square"></a></li> <!-- email link here -->
+                                </ul>
                             </div>
-                        </div> 
+                        </div><!-- End Team Wrapper -->
+                    </div><!-- End Team #1 -->
 
 
-                    <div class="item"> 
-                        <div class="hover-bg"> 
-                            <div class="hover-text off">
+                    <div class="item"> <!-- Team #2 -->
+                        <div class="hover-bg"> <!-- Team Wrapper -->
+                            <div class="hover-text off"> <!-- Hover Description -->
                                 <p>A 20 year veteran of Marine Corps aviation with a strong attention to detail, pride of work ownership brought on by teamwork and collaboration and adaptable regarding adjusting client technical requirements.</p>
-
-                            <img id="teamimg" src="img/team/scotthockey.png" alt="..." class="img-responsive">
+                            </div> <!-- End Hover Description -->
+                            <img id="teamimg" src="img/team/scotthockey.png" alt="..." class="img-responsive"><!-- Team Image -->
                             <div class="team-detail text-center">
                                 <h3>Scott Rushford</h3>
                                 <p class="text-uppercase">"Vice President / COO"</p>
                                 <ul class="list-inline social">
-                                    <li><a href="https://www.linkedin.com/in/scott-rushford/" class="fa fa-linkedin"></a></li> 
-                                    <li><a href="https://twitter.com/hockeynrfi" class="fa fa-twitter"></a></li> 
-                                    
-                                    <li><a href="scott@hireupdevelopment.com" class="fa fa-envelope-square"></a></li> 
+                                    <li><a href="https://www.linkedin.com/in/scott-rushford/" class="fa fa-linkedin"></a></li> <!-- Linkedin link here -->
+                                    <li><a href="https://twitter.com/hockeynrfi" class="fa fa-twitter"></a></li> <!-- twitter link here -->
+                                    <!-- <li><a href="https://plus.google.com/u/1/117860436171416354741" class="fa fa-google-plus"></a></li> --> <!-- google plus link here -->
+                                    <li><a href="scott@hireupdevelopment.com" class="fa fa-envelope-square"></a></li> <!-- email link here -->
                                 </ul>
                             </div>
-                        </div>
+                        </div><!-- End Team Wrapper -->
 
-                    </div>
+                    </div><!-- End Team #2 -->
 
-                    <div class="item"> 
-                      <div class="hover-bg"> 
-                        <div class="hover-text off"> 
+                    <div class="item"> <!-- Team #3 -->
+                      <div class="hover-bg"> <!-- Team Wrapper -->
+                        <div class="hover-text off"> <!-- Hover Description -->
                           <p>Every business needs a strong developer who has a great balance of User-Focused design and Back-End know how.  Joe has a wide array of skills and languages at his disposal and a dedicated, driven desire to assist in bringing concepts to life.</p>
-                        </div> 
-                        <img id="teamimg" src="img/team/Joe.png" alt="..." class="img-responsive">
+                        </div> <!-- End Hover Description -->
+                        <img id="teamimg" src="img/team/Joe.png" alt="..." class="img-responsive"><!-- Team Image -->
                         <div class="team-detail text-center">
                           <h3>Joseph Grounds</h3>
                           <p class="text-uppercase">"CTO / Secretary"</p>
                           <ul class="list-inline social">
-                            <li><a href="https://www.linkedin.com/in/joseph-grounds/" class="fa fa-linkedin"></a></li> 
-                            <li><a href="joe@hireupdevelopment.com" class="fa fa-envelope-square"></a></li>  
+                            <li><a href="https://www.linkedin.com/in/joseph-grounds/" class="fa fa-linkedin"></a></li> <!-- facebook link here -->
+                            <!-- <li><a href="#" class="fa -fa-twitter"></a></li> --> <!-- twitter link here -->
+                            <!-- <li><a href="#" class="fa fa-google-plus"></a></li> --> <!-- google plus link here -->
+                             <li><a href="joe@hireupdevelopment.com" class="fa fa-envelope-square"></a></li>  <!-- email link here -->
                           </ul>
                         </div>
-                      </div> 
-                    </div>
+                      </div> <!-- End Team Wrapper -->
+                    </div><!-- End Team #3 -->
 
-                </div> 
-            </div> 
+                </div> <!-- end team carousel wrapper -->
+
+            </div> <!-- container -->
         </div>
 
-
+    <!-- MISSION STATEMENT -->
     <section id="newsletter" class="section text-center">
         <div class="container" id="mission">
-     
+          <!-- <br /><br /><br /><br /><br /><br /> -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="newsletter-content wow fadeInDown" data-wow-duration="1s">
@@ -310,15 +415,125 @@
             </div>
         </div>
     </section>
-    
+    <!-- END OF MISSION STATEMENT -->
 
-    
+    <!-- NEWSLETTER -->
+    <!-- <section id="newsletter" class="section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="newsletter-content wow fadeInDown" data-wow-duration="1s">
+                        <h2>Like our Work? Stay Connected</h2>
+                        <p>We want to hear from you</p>
+                    </div>
+                    <div class="form-group wow fadeInUp" data-wow-duration="1s">
+                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <input type="submit" class="pull-right button newsletter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- END NEWSLETTER -->
+
+    <!-- TESTIMONIAL -->
+    <!-- <section id="testimonial" class="section text-center">
+        <h2 class="section-title">Testimonial</h2>
+        <div class="container">
+
+
+            <div id="owl-demo" class="owl-carousel owl-theme">
+
+
+                <div class="item">
+                    <div class="single-testimonial">
+                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client.png" alt="Testimoinial">
+                        <p class="wow fadeInDown" data-wow-duration="1s">
+                            I like Joe's beard.
+                        </p>
+                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-testimonial">
+                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client2.png" alt="Testimoinial">
+                        <p class="wow fadeInDown" data-wow-duration="1s">
+                            Wow, Wow, Wow.
+                        </p>
+                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-testimonial">
+                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client3.png" alt="Testimoinial">
+                        <p class="wow fadeInDown" data-wow-duration="1s">
+                            These guys are pretty legit.
+                        </p>
+                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-action wow fadeInUp" data-wow-duration="1s">
+                <a class="button testimonial" href="#">Read More</a>
+            </div>
+        </div>
+
+    </section> -->
+    <!-- END TESTIMONIAL -->
+
+    <!-- GET TRIAL -->
+    <!-- <section id="get-trial" class="section text-center">
+        <div class="overlay_trail">
+        <div class="container">
+            <div class='row'>
+                <div class='col-md-4'>
+                    <img src="./img/client.png">
+                    <h2>Tim Jackson, CEO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, optio.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, optio.
+                    </p>
+                </div>
+                <div class='col-md-4'>
+                    <img src="./img/client.png">
+                    <h2>Scott Rushford, COO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, optio.</p>
+                </div>
+                <div class='col-md-4'>
+                    <img src="./img/client.png">
+                    <h2>Joseph Grounds, CTO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, optio.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+    <!-- END GET TRIAL -->
+
+    <!-- CONTACT US -->
     <section id="contact" class="section text-center">
-      
+      <!-- <br /><br /><br /><br /> -->
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
             <div class="row">
-           
+
+                <!-- CONTACT FORM -->
 
 
 <div id="form-messages"></div>
@@ -339,7 +554,9 @@
         <button type="submit" class="pull-left send-button button">Send Message</button>
     </form>
 </div>
-                
+                <!-- END CONTACT FORM -->
+
+                <!-- CONTACT INFO -->
                 <div class="col-md-3">
                     <div class="contact-info text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                         <h3>Get In Touch</h3>
@@ -354,17 +571,19 @@
                         <p>Sunday: Closed</p>
                     </div>
                 </div>
-               
+                <!-- END CONTACT INFO -->
 
             </div>
         </div>
     </section>
-  
+    <!-- END CONTACT US -->
+
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row">
 
-              
+                <!-- FOOTER MENU -->
                 <div class="col-md-6">
                     <div class="footer-menu">
                         <ul class="list-inline">
@@ -377,25 +596,31 @@
                             <li><a href="#mission">Mission</a>
                             </li>
 
+                            <!-- <li><a href="#">Portfolio</a>
+                            </li>
+                            <li><a href="#">Services</a>
+                            </li> -->
 
                         </ul>
                     </div>
                 </div>
-              
+                <!-- END FOOTER MENU -->
+
+                <!-- FOOTER CONTENT -->
                 <div class="col-md-6">
                     <div class="footer-content text-right">
                         <p>&copy; 2018 All Rights Reserved, <a href="http://codeponsive.com/">HireUp Development Inc.</a>
                         </p>
                     </div>
                 </div>
-       
+                <!-- END FOOTER CONTENT -->
 
             </div>
-       
+            <!-- /.row -->
         </div>
-        
+        <!-- ./container -->
     </footer>
-    
+    <!-- END FOOTER -->
 
 
     <script>
