@@ -1,7 +1,7 @@
 {
-  "name": "personalpage",
+  "name": "hireup_development",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website for HireUp Development Inc.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jdg2384/hire_up_website"
   },
-  "homepage": "https://github.com/jdg2384/hire_up_website/blob/development/home.html",
+  "homepage": "https://github.com/jdg2384/hire_up_website/blob/master/home.html",
   "dependencies": {
     "body-parser": "^1.18.2",
     "bower": "^1.8.4",
