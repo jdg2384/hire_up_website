@@ -1,4 +1,5 @@
 <?php
+	include_once("home.html");
 	$mail_to = 'tim@hireupdevelopment.com, joe@hireupdevelopment.com, scott@hireupdevelopment.com'; // specify your email here
 
 	// Assigning data from $_POST array to variables
